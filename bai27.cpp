@@ -1,12 +1,12 @@
 #include<iostream>
+#include<math.h>
 
 using namespace std;
 
 int main() {
-	int a,b; 
+	int a , b, c;
     cin >> a >> b;
-    cout << "a % b = " << a%b;
+    c = a%b;
+    cout << "a % b = " << c;
 	return 0;
 }
-// What is the output of the following code?
-// a % b = 1
